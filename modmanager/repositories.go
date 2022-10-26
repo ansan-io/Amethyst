@@ -11,6 +11,14 @@ type ForgeRepo struct {
 	Versions []ForgeVersion
 }
 
+type ModManifest struct {
+	ModLoader string
+	LoaderVersion string
+	License string
+}
+
+
+
 type Mod struct {
 	Name           string
 	ID             string
